@@ -14,13 +14,17 @@ const Text = styled.span`
   color: white;
 `;
 
+const Circle = styled(Box)`
+  border-radius: 50px;
+`;
+
 function App() {
   return( 
     <Father>
     <Box bgColor="teal">
       <Text>Hello!</Text>
     </Box>
-    <Box bgColor="tomato"/>
+    <Circle bgColor="purple"/>
   </Father>
   );
 }
